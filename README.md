@@ -4,20 +4,20 @@ This is a proposed solution for the following **Project Waste Not, Inc** python 
 
 > Provide some Python code that can be used to measurehow long a function takes to run in a friendlyformat. The amount of time can range from less thana second to several hours and should be easyfor a human to read (for example “00:00:00:00012”is not a good output)
 
-The intention of this proposed solution is to be able to measure the execution time of virtually any python function. For it, the function will have to be exposed as a python module.
+This proposed solution is meant to measure the execution time of virtually any python function. For it, the function will have to be exposed as a python module.
 
 ## How it works?
 
-When the project is launched, it will:
+When the project is launch, it will:
 1. Create a new virtual environment.
 2. Load the new virtual environment and install the module dependencies.
 3. Execute the module passing the parameters specified by the user.
-4. Prints the total duration of the execution of the module.
-5. Delete the virtual environment that was created.
+4. Print the total duration of the execution of the module.
+5. Delete the virtual environment that was initially created.
 
 ## Install and Run
 
-To install just pull this repository. To run this project the user must send
+To install just pull this repository. To run this project the user must pass the following arguments:
 
 | Arguments        | Description           | Mandatory  | Example |
 | :-------------: |:-------------| :-----:| :-----|
@@ -27,7 +27,7 @@ To install just pull this repository. To run this project the user must send
 
 ## Examples
 
-Assuming you want to check the total duration time of the test_modules included in this repo and that you pulled it on `/home/user/measure_execution_time`, then you should run this project from your `/home/user/` folder as:
+Assuming you want to check the total duration time of the test_module included in this repository and that you pulled this project in `/home/user/measure_execution_time`, then you should run this project from your `/home/user/` folder as:
 
 `python3 -m measure_execution_time --requirements ~/measure_execution_time/test_module/requirements.txt --module ~/measure_execution_time/test_module`
 
