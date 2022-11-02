@@ -2,9 +2,9 @@
 
 This is a proposed solution for the following **Project Waste Not, Inc** python coding challenge:
 
-> Provide some Python code that can be used to measurehow long a function takes to run in a friendlyformat. The amount of time can range from less thana second to several hours and should be easyfor a human to read (for example “00:00:00:00012”is not a good output)
+> Provide some Python code that can be used to measure how long a function takes to run in a friendly format. The amount of time can range from less than a second to several hours and should be easy for a human to read (for example “00:00:00:00012” is not a good output)
 
-This proposed solution is meant to measure the execution time of virtually any python function. For it, the function will have to be exposed as a python module.
+This proposed solution is meant to measure the execution time of virtually any python function. For it, the function will have to be expose as a python module.
 
 ## How it works?
 
